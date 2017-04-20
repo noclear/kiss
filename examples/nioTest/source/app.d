@@ -1,11 +1,11 @@
 ﻿
 
 
-import kiss.nio.ServerSocketChannel;
-import kiss.nio.SocketChannel;
-import kiss.nio.Selector;
-import kiss.nio.SelectionKey;
-import kiss.nio.ByteBuffer;
+import kiss.aio.ServerSocketChannel;
+import kiss.aio.SocketChannel;
+import kiss.aio.Selector;
+import kiss.aio.SelectionKey;
+import kiss.aio.ByteBuffer;
 import std.stdio;
 import std.socket;
 import core.thread;

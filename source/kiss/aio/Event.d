@@ -1,14 +1,15 @@
 /*
- * 
+ * KISS - A refined core library for dlang
  *
- * Copyright (C) 2017 Shanghai Putao Technology Co., Ltd 
+ * Copyright (C) 2015-2017  Shanghai Putao Technology Co., Ltd
  *
- * Developer: putao's Dlang team
+ * Developer: HuntLabs
  *
  * Licensed under the Apache-2.0 License.
  *
  */
-module kiss.event.Event;
+
+module kiss.aio.Event;
 
 enum IOEventType
 {

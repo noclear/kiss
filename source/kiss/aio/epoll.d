@@ -1,10 +1,16 @@
+/*
+ * KISS - A refined core library for dlang
+ *
+ * Copyright (C) 2015-2017  Shanghai Putao Technology Co., Ltd
+ *
+ * Developer: HuntLabs
+ *
+ * Licensed under the Apache-2.0 License.
+ *
+ */
 
-
-
-
-
-module kiss.nio.epoll;
-import kiss.nio.SelectionKey;
+module kiss.aio.epoll;
+import kiss.aio.SelectionKey;
 import std.experimental.logger;
 import std.conv;
 import core.stdc.errno;

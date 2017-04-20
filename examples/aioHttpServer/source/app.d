@@ -4,11 +4,11 @@
 
 
 
-import kiss.nio.AsynchronousServerSocketChannel;
-import kiss.nio.AsynchronousSocketChannel;
-import kiss.nio.AsynchronousChannelThreadGroup;
-import kiss.nio.CompletionHandle;
-import kiss.nio.ByteBuffer;
+import kiss.aio.AsynchronousServerSocketChannel;
+import kiss.aio.AsynchronousSocketChannel;
+import kiss.aio.AsynchronousChannelThreadGroup;
+import kiss.aio.CompletionHandle;
+import kiss.aio.ByteBuffer;
 import std.socket;
 import std.stdio;
 import core.thread;

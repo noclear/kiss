@@ -1,29 +1,29 @@
+/*
+ * KISS - A refined core library for dlang
+ *
+ * Copyright (C) 2015-2017  Shanghai Putao Technology Co., Ltd
+ *
+ * Developer: HuntLabs
+ *
+ * Licensed under the Apache-2.0 License.
+ *
+ */
 
+module kiss.aio.AsynchronousChannelBase;
 
+import kiss.aio.AsynchronousChannelThreadGroup;
+import kiss.aio.AsynchronousChannelSelector;
+import kiss.aio.AsynchronousSocketChannel;
+import kiss.aio.AsynchronousSelectionKey;
+import kiss.aio.ByteBuffer;
+import kiss.aio.CompletionHandle;
+import kiss.aio.Event;
 
-
-
-module kiss.nio.AsynchronousChannelBase;
-
-import kiss.nio.AsynchronousChannelThreadGroup;
-import kiss.nio.AsynchronousChannelSelector;
-import kiss.nio.AsynchronousSocketChannel;
-import kiss.nio.ByteBuffer;
-import kiss.nio.CompletionHandle;
-import kiss.event.Event;
-import std.experimental.logger;
 import core.stdc.errno;
 
-
-import kiss.nio.AsynchronousSelectionKey;
 import std.socket;
 import std.stdio;
-
-
-
-
-
-
+import std.experimental.logger;
 
 class AsynchronousChannelBase {
 
