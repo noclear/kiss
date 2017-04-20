@@ -19,8 +19,8 @@ class AsyncTcpClient:AsyncTcpBase,Timer
 
 	this(Group poll , int reconnecttime = 5 * 1000, int client_keepalivetime = 60 * 1000)
 	{
-		int l = poll.polls().length;
-		int r = uniform(0 , l);
+		ulong l = poll.polls().length;
+		ulong r = uniform(0 , l);
 		this(poll.polls[r] , reconnecttime , client_keepalivetime);
 	}
 
